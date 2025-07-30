@@ -38,10 +38,10 @@ def insert_data(id,name,email):
     host="localhost",
     user="root",
     password="roottoor",
-    database="rene_ece"
+    database="Parthiv_ece"
     )
     mycursor = mydb.cursor()
-    sql = "insert into norah(id,name,email)""values (%s,%s,%s)"
+    sql = "insert into Yadav(id,name,email)""values (%s,%s,%s)"
     val = [id,name,email]
     mycursor.execute(sql,val)
     mydb.commit()
